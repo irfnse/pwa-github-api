@@ -6,5 +6,5 @@ app = express();
 // untuk menjalankan /dist
 app.use(serveStatic(__dirname + "/dist"));
 // menagtur port
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 app.listen(port);
